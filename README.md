@@ -2,7 +2,7 @@
 Making a pizza web application using complete AWS Stack
 
 ## Goal
-* The goal is to build a web application which uses complete Stack of AWS services like EC2, S3, DynamoDB, RDS, ElastiCache etc.
+* The goal is to build a scalable web application which uses complete Stack of AWS services like EC2, S3, DynamoDB, RDS, ElastiCache etc. with load balancing and auto-scaling features. 
 * This web application enables users to create pizzas using various ingredients and view pizzas creted by others.
 
 ## System Design
@@ -31,8 +31,8 @@ Making a pizza web application using complete AWS Stack
 	</tr>
   </tr>
   	<tr>
-		<td>Session Management</td>
-		<td>ElastiCache</td>
+		<td>Session Management & Caching</td>
+		<td>CloudFront, ElastiCache, Redis Cluster</td>
 	</tr>
    </tr>
   	<tr>
@@ -45,7 +45,11 @@ Making a pizza web application using complete AWS Stack
 	</tr>
   <tr>
 		<td>Deployment</td>
-		<td>DynamoDb, RDS</td>
+		<td>VPC, EC2, Elastic Beanstalk, CloudFormation</td>
+	</tr>
+	 <tr>
+		<td>Other AWS Services</td>
+		<td>IAM, CloudWatch, SNS</td>
 	</tr>
 </tbody>
 </table>

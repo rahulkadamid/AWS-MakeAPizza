@@ -47,6 +47,10 @@ Making a pizza web application using complete AWS Stack
 		<td>Deployment</td>
 		<td>VPC, EC2, Elastic Beanstalk, CloudFormation</td>
 	</tr>
+	<tr>
+		<td>Scaling</td>
+		<td>Load Balaner, Auto Scaling Group</td>
+	</tr>
 	 <tr>
 		<td>Other AWS Services</td>
 		<td>IAM, CloudWatch, SNS</td>

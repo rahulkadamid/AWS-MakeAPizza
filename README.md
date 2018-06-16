@@ -74,3 +74,12 @@ Making a pizza web application using complete AWS Stack
 ![](images/5.PNG)
 ##### Pizzas by other users
 ![](images/6.PNG)
+
+## Steps for Project Execution :
+```
+cd AWS-MakeAPizza
+npm install
+npm start
+node index.js
+```
+

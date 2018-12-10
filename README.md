@@ -13,6 +13,8 @@ Making a pizza web application using complete AWS Stack
 
 ![](images/8.PNG)
 
+![](images/9.PNG)
+
 <table>
 <thead>
 <tr>
